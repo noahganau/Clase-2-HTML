@@ -1,0 +1,133 @@
+/* ELEMENTOS */
+html {
+    background-color: #f5e6d3;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: "Georgia", "Garamond", serif;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-family: "Georgia", "Garamond", serif;
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-family: "Georgia", "Garamond", serif;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-family: "Georgia", "Garamond", serif;
+  }
+  
+  h5 {
+    font-size: 20px;
+    font-family: "Georgia", "Garamond", serif;
+  }
+  
+  img {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.02);
+  }
+  
+  a {
+    color: #1a3c8c;
+    transition: 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #c0a060;
+  }
+  
+  header,
+  .header {
+    padding: 2rem 0;
+    background: linear-gradient(45deg, #1a2c4e, #2a3c5e);
+    color: #c0a060;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  aside {
+    border: 1px solid rgba(192, 160, 96, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  section,
+  .section {
+    margin-bottom: 48px;
+    padding: 1.5rem;
+  }
+  
+  article {
+    margin-bottom: 32px;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  /* CLASES DE COMPONENTE */
+  
+  .card {
+    padding: 1.25rem;
+    background: #ffffff;
+    border: 1px solid rgba(192, 160, 96, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .container {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  /* CLASES DE UTILIDAD */
+  
+  .font-body {
+    font-family: "Arial", "Verdana", sans-serif;
+  }
+  
+  .font-size-body {
+    font-size: 16px;
+  }
+  
+  .font-size-small-text {
+    font-size: 14px;
+  }
+  
+  /* colores de fuente */
+  .color-gold {
+    color: #c0a600;
+  }
+  
+  .color-dark-blue {
+    color: #1a2c4e;
+  }
+  
+  .color-grey {
+    color: #707070;
+  }
+  
+  .color-alliance-blue {
+    color: #1a3c8c;
+  }
+  
+  .color-red {
+    color: #8c1616;
+  }
